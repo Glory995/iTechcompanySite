@@ -1,0 +1,188 @@
+body{
+
+    background-color:#fffefeb0;
+    font-family: 'Raleway', sans-serif;
+
+
+    /*#ef4b42*/
+}
+
+.wrapper{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+p{
+
+ text-align: right;
+
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+
+
+.lisitems{
+
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.walk{
+
+    background-color: transparent;
+    border: 2px solid #ef4b42;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.walk:hover{
+
+    background-color: #ef4b42;
+    color: white;
+}
+
+.hero{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.full{
+
+    font-weight: 600;
+    font-size: 32px;
+}
+.listandbuton{
+
+    display: flex;
+    gap: 30px;
+}
+
+.buttonlist{
+
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.holdingimage{
+
+    max-width: 600px;
+    
+}
+
+.imagee{
+
+    width: 100%;
+
+}
+
+.mobileimage{
+    display: none;
+}
+
+.letstalk{
+
+    border: 1px solid #ef4b42;
+    padding: 10px;
+    width: 150px;
+    background-color: #ef4b42;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.imagebutton{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.h1{
+
+    color: #ef4242;
+}
+.bars{
+
+    display: none;
+}
+
+
+@media screen and (max-width:890px) {
+
+    .contact{
+        display: none;
+    }
+
+    .lisitems{
+
+        display: none;
+    }
+    
+    .holdingimage{
+        display: none;
+        width: 300px;
+
+    }
+    
+    .mobileimage{
+        width: 100%;
+        display: flex;
+    }
+    .full{
+        margin-top: -50px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    nav{
+
+        background-color: #ef4242;
+        padding: 5px;
+    }
+    .h1{
+        color: white;
+    }
+
+    h3{
+
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .walk{
+        display: none;
+    }
+
+    .letstalk{
+
+        margin: 0 auto;
+    }
+
+    .bars{
+        display: flex;
+        width:30px;
+        height: 30px;
+        color: white;
+    }
+}
+
